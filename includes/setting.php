@@ -170,7 +170,7 @@ function themeConfig($form) {
           ['api.ohmyga.cn' =>   'OMGのAPI',
            'local'         =>   '本地',
            'cdn'           =>   '自定义 CDN',
-           '9jojo'         =>   '9JOJO'
+           '9jojo'         =>   '咕谷的API'
           ],'9jojo').
         $config->input('randimgCdn', '自定义随机文章图CDN', '在这里填写你自己的CDN(如 api.xxx.xxx)，以获取随机图片(需在上方选择自定义CDN)').
         $config->select('gravatar', 'Gravatar头像源', '在这里可以设置Gravatar头像源',
